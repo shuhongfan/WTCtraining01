@@ -19,11 +19,97 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fa3cb9f-e960-4356-8454-95a53a80d809" name="默认的" comment="2020.9.7">
+    <list default="true" id="4fa3cb9f-e960-4356-8454-95a53a80d809" name="默认的" comment="2020.9.7 album end">
+      <change afterPath="$PROJECT_DIR$/06boota/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/css/boot-example-1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/css/boot-example-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/css/bootstrap.min2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/css/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/css/jquery.flexslider-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/amazon-grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/amazon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/aztec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/aztec_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/cisco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/cisco_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/cityairline-grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/cityairline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/cocacola.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/cocacola_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/dell-grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/dell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/ebay-grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/ebay-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/ebay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/everyday.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/everyday_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/gamescast.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/gamescast_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/google-grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/hp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/hp_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/igneus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/igneus_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/natural.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/natural_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/naturallygreen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/shell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/shell_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/smart-grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/smart-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/smart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/spinworkx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/spinworkx_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/vadafone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/vadafone_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/walmart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/OurClients/walmart_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/bg_direction_nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/client1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/client2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/client3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/nivo-bullets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/service1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/service2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/service3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/slides/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/slides/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/team1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/team2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/team3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/team4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/works/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/works/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/works/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/works/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/works/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/works/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/works/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/img/works/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/js/animate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/js/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/js/jquery.flexslider-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06boota/js/my.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/05album/album.html" beforeDir="false" afterPath="$PROJECT_DIR$/05album/album.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05album/css/style-album.css" beforeDir="false" afterPath="$PROJECT_DIR$/05album/css/style-album.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05album/js/album.js" beforeDir="false" afterPath="$PROJECT_DIR$/05album/js/album.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +119,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -56,6 +142,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/06" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -65,6 +152,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\WTCtraining01\06" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599468748126</updated>
-      <workItem from="1599468749329" duration="3283000" />
+      <workItem from="1599468749329" duration="7278000" />
     </task>
     <task id="LOCAL-00001" summary="2020.9.7">
       <created>1599470070090</created>
@@ -82,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599470070090</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2020.9.7 album end">
+      <created>1599472090295</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599472090295</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,12 +200,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020.9.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020.9.7" />
+    <MESSAGE value="2020.9.7 album end" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020.9.7 album end" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1559" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599470084701">
+    <state x="-1559" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599472187264">
       <screen x="-1920" y="0" width="1536" height="824" />
     </state>
-    <state x="-1559" y="145" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1599470084701" />
+    <state x="-1559" y="145" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1599472187264" />
   </component>
 </project>
