@@ -1,0 +1,35 @@
+.welcome-img{
+    height: 385px;
+    background: url("../img/welcome.jpg") no-repeat left top;
+    background-size: cover;
+}
+
+.info,h1{
+    text-align: center;
+}
+
+.hot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.hot li,.hot-img,.hot-text p{
+    width: 200px;
+}
+
+.hot-img{
+    height: 240px;
+    box-shadow: 2px 3px 5px rgba(255,0,0,0.3);
+}
+
+.hot-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.hot-text p{
+    height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

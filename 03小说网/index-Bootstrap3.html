@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/myBootstrap3.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img id="logo" alt="Brand" src="./img/logo.png">
+                </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">首页 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li><a href="#">分类</a></li>
+                    <li><a href="#">排行榜</a></li>
+                    <li><a href="#">个性小说</a></li>
+                </ul>
+            </div><!--/.navbar-collapse -->
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <div class="container"></div>
+    </div>
+    <div class="container mycontainer">
+        <h1>热门文学</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi atque aut debitis dicta doloribus eum facere fugit laboriosam laudantium obcaecati, odit provident quasi quis repellendus saepe, sed sit voluptatum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. At debitis explicabo maiores, molestiae mollitia nesciunt quo. Cum dolor eligendi iste nihil quae quasi, quibusdam sapiente suscipit tenetur totam voluptate voluptates.</p>
+    </div>
+    <div class="container books">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="thumbnail">
+                    <img src="./img/1.jpg"
+                         alt="狂人日记">
+                    <div class="caption">
+                        <h3>狂人日记</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam autem, commodi consequatur id maxime odio, officiis rem sequi, unde vel veniam voluptates. Blanditiis consequuntur debitis facilis, libero molestiae officiis tempore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="thumbnail">
+                    <img src="./img/2.jpg"
+                         alt="鲁迅">
+                    <div class="caption">
+                        <h3>鲁迅</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium autem dolor dolorem doloribus ea est facere fugit incidunt laudantium non. Aliquam dignissimos laborum necessitatibus totam veniam. Assumenda in inventore tempore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="thumbnail">
+                    <img src="./img/3.jpg"
+                         alt="朝花夕拾">
+                    <div class="caption">
+                        <h3>朝花夕拾</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt, eius ipsum laboriosam laudantium nulla quibusdam quis ratione sint tempora? Assumenda eius fugiat fugit omnis quibusdam sint tempore. Nisi, sit!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="thumbnail">
+                    <img src="./img/4.jpg"
+                         alt="呐喊">
+                    <div class="caption">
+                        <h3>呐喊</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores blanditiis cum dicta eum exercitationem, inventore iure, natus omnis provident quam quibusdam quidem recusandae rerum, sunt tenetur voluptatum! Cumque, obcaecati.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <footer>
+                <a href="#">关于小说</a>
+                <a href="#">友情链接</a>
+                <a href="#">联系我们</a>
+                <a href="#">帮助中心</a>
+            </footer>
+        </div>
+    </div>
+</body>
+<script>
+    $('#navbar li').click(function (){
+        console.log(this)
+        $(this).addClass('active').siblings().removeClass('active')
+    })
+</script>
+</html>

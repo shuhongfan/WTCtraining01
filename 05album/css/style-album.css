@@ -1,0 +1,22 @@
+body,ul,li{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+#img_box{
+    display: flex;
+    flex-wrap: wrap;
+}
+#img_box li{
+    width: 50%;
+    /*border: 1px solid #f00;*/
+}
+#img_box li img{
+    width: 100%;
+}
+.rotatY{
+    transform: rotateY(360deg);
+    transition: transform 2s;
+}
