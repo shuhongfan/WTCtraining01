@@ -27,9 +27,77 @@ body{
 .flex-caption p{
     font-size: 20px;
 }
+.flex-direction-nav a{
+    background: url('../img/arr.png');
+}
 /*手机和平板没有标题*/
 @media only screen and (max-width: 768px) {
     .flex-caption{
         display: none;
     }
+}
+
+/*我们的产品css*/
+.ourProducts{
+    color: #999;
+}
+.ourProducts h1{
+    text-align: center;
+}
+.ourProducts p{
+    text-indent: 2em;
+}
+/*iconfont区域*/
+.box{
+    border: 1px solid #dddddd;
+    margin: 20px 0 10px 0;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+    padding: 20px 10px 5px 10px;
+}
+.box:hover{
+    background-color: #E48907;
+    cursor: pointer;
+}
+.box:hover .iconfont{
+    color: white;
+}
+.box .iconfont{
+    font-size: 42px;
+    color: #E48907;
+}
+.box h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.box a{
+    color: #0c1f5a;
+}
+.box p{
+    line-height: 1.8em;
+}
+
+/*我们的团队*/
+.ourteam{
+    padding: 50px 0 0;
+}
+.ourteam img{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.ourteam p{
+    line-height: 1.8em;
+}
+
+/*脚部*/
+footer{
+    padding: 50px 0 0;
+    color: #949494;
+    background-color: #080808;
+}
+footer h5{
+    font-size: 18px;
+    color: #fff;
+}
+footer address{
+    line-height: 1.6em;
 }
