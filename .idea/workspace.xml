@@ -19,7 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fa3cb9f-e960-4356-8454-95a53a80d809" name="默认的" comment="2020.9.8 boot end" />
+    <list default="true" id="4fa3cb9f-e960-4356-8454-95a53a80d809" name="默认的" comment="2020.9.8 boot end">
+      <change afterPath="$PROJECT_DIR$/07Flexslider/1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07Flexslider/2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07Flexslider/Flexslider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07Flexslider/Flexslider.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07Flexslider/img/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07Flexslider/img/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07Flexslider/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,9 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -46,12 +55,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/06" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/07Flexslider/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -63,7 +73,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\WTCtraining01\07Flexslider\css" />
+      <recent name="C:\Users\Administrator\Desktop\WTCtraining01\07Flexslider\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\WTCtraining01\07Flexslider\js" />
+      <recent name="C:\Users\Administrator\Desktop\WTCtraining01\07Flexslider\img" />
       <recent name="C:\Users\Administrator\Desktop\WTCtraining01\06" />
     </key>
   </component>
@@ -77,6 +93,7 @@
       <updated>1599468748126</updated>
       <workItem from="1599468749329" duration="7499000" />
       <workItem from="1599546147530" duration="4447000" />
+      <workItem from="1599807308749" duration="3606000" />
     </task>
     <task id="LOCAL-00001" summary="2020.9.7">
       <created>1599470070090</created>
@@ -125,6 +142,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2020.9.7" />
     <MESSAGE value="2020.9.7 album end" />
     <MESSAGE value="2020.9.8 boot end" />

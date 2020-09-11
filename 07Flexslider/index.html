@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>网4 舒洪凡</title>
+    <link href="http://cdn.bootcss.com/flexslider/2.6.3/flexslider.min.css" rel="stylesheet">
+    <script src="http://cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/flexslider/2.6.3/jquery.flexslider-min.js"></script>
+</head>
+<body>
+<div class="flexslider">
+    <ul class="slides">
+        <li>
+            <img src="./img/img1.png" alt="">
+        </li>
+        <li>
+            <img src="./img/img2.png" alt="">
+        </li>
+    </ul>
+</div>
+<script>
+    $(function (){
+        $('.flexslider').flexslider({
+            animation: 'slide',
+            direction: 'vertical',
+            directionNav: true,
+            slideshowSpeed: 4000, //展示时间间隔ms
+            animationSpeed: 400, //滚动时间ms
+            touch: true, //是否支持触屏滑动
+            keyboardNav: true, //Boolean:left/right keys键盘左右方向键控制图片滑动
+        })
+    })
+</script>
+</body>
+</html>
