@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+    <div data-role="header" data-position="fixed">
+        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">主页</a>
+        <h1>欢迎来到我的主页1 data-role="header"</h1>
+        <a href="#" class="ui-btn ui-icon-search ui-shadow ui-icon-home ui-btn-icon-right">搜索</a>
+    </div>
+
+    <div data-role="content" class="ui-content">
+        <p>我是一个jquery mobile开发者</p>
+        <a href="#pagetwo" data-transition="slideup">跳转到页面2 data-transition="slideup"</a>
+        <p>
+            <a href="#" class="ui-btn ui-icon-home ui-btn-icon-left">主页</a>
+            <a href="#" class="ui-btn">class="ui-btn"</a>
+            <a href="#" data-role="button">data-role="button"</a>
+            <button class="ui-btn">class="ui-btn"</button>
+        </p>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+<!--        <h1>脚步文本 data-role="footer"</h1>-->
+        <div data-role="navbar">
+            <ul>
+                <li>
+                    <a href="#">首页</a>
+                </li>
+                <li>
+                    <a href="#">Noc大赛</a>
+                </li>
+                <li>
+                    <a href="#">考级报名</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!--<div data-role="page" id="pagetwo" data-dialog="true">-->
+<div data-role="page" id="pagetwo">
+    <div data-role="header" data-position="fixed">
+        <h1>欢迎来到我的主页2 data-role="header"</h1>
+    </div>
+
+    <div data-role="content" class="ui-content">
+        <p> data-role="content"</p>
+        <a href="#pageone" data-transition="slide">跳转到页面1 data-transition="slide"</a>
+        <ul data-role="listview" data-autodividers="true">
+            <li>恩施大峡谷</li>
+            <li>土司城</li>
+            <li>女儿城</li>
+        </ul>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <h1>脚步文本 data-role="footer"</h1>
+    </div>
+</div>
+
+
+</body>
+</html>
