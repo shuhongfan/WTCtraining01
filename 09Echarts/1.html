@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+</head>
+<body>
+<div id="myEcharts" style="width: 600px;height: 600px;border: 1px solid #f00;"></div>
+<script>
+    // 基于准备好的dom，初始化echarts实例
+    var myEChart = echarts.init(document.getElementById('myEcharts'))
+
+    // 指定图表的配置项和数据
+    var option = {
+        // 为图表配置标题
+        title: {
+            text: '第一个 ECharts 实例'
+        },
+        // 配置提示信息
+        tooltip: {},
+        // 图例组件展现了不同系列的标记(symbol)，颜色和名字。可以通过点击图例控制哪些系列不显示
+        legend: {
+            data:['销量']
+        },
+        // 配置要在 X 轴显示的项
+        xAxis: {
+            data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
+        },
+        // 配置要在 Y 轴显示的项
+        yAxis: {},
+        // 每个系列通过 type 决定自己的图表类型
+        series: [{
+            name: '销量',
+            type: 'bar',
+            data: [5, 20, 36, 10, 10, 20]
+        }]
+    }
+
+    // 使用刚指定的配置项和数据显示图表。
+    myEChart.setOption(option)
+</script>
+</body>
+</html>

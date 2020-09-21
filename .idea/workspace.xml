@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fa3cb9f-e960-4356-8454-95a53a80d809" name="默认的" comment="2020.9.14 jqmobile">
-      <change afterPath="$PROJECT_DIR$/08JQmobile/tel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09Echarts/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10nodejs/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +64,8 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -92,6 +94,8 @@
       <workItem from="1599807308749" duration="10811000" />
       <workItem from="1600075870565" duration="40000" />
       <workItem from="1600075915872" duration="6588000" />
+      <workItem from="1600676923753" duration="205000" />
+      <workItem from="1600677134404" duration="7237000" />
     </task>
     <task id="LOCAL-00001" summary="2020.9.7">
       <created>1599470070090</created>
@@ -163,11 +167,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="2020.9.14 jqmobile" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="82" y="128" key="SettingsEditor" timestamp="1600075986754">
-      <screen x="0" y="0" width="1080" height="1880" />
+    <state x="0" y="102" key="SettingsEditor" timestamp="1600677128091">
+      <screen x="0" y="0" width="864" height="1496" />
     </state>
     <state x="82" y="128" key="SettingsEditor/0.0.1080.1880/-1920.0.1920.1040@0.0.1080.1880" timestamp="1600075986754" />
     <state x="270" y="56" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1599546165810" />
+    <state x="0" y="102" key="SettingsEditor/0.0.864.1496/-1920.-124.1536.824@0.0.864.1496" timestamp="1600677128091" />
     <state x="254" y="331" key="Vcs.Push.Dialog.v2" timestamp="1600082653859">
       <screen x="0" y="0" width="1080" height="1880" />
     </state>
