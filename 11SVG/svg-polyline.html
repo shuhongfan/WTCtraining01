@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*重置css*/
+        ul,li,body{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        #list{
+            display: flex;
+        }
+        ul li{
+            width: 200px;
+            height: 25px;
+            line-height: 25px;
+            text-align: center;
+            border: 1px solid #ffff00;
+        }
+        .btn{
+            width: 50px;
+            height: 75px;
+            background-color: red;
+            margin-top: 50px;
+        }
+        #upPage{
+            background: url("arrowLeft.svg") no-repeat left center;
+            background-size: cover;
+        }
+        #nextPage{
+            background: url("arrowRight.svg") no-repeat left center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div id="list">
+        <div id="upPage" class="btn"></div>
+        <ul>
+            <li>我是第1</li>
+            <li>我是第2</li>
+            <li>我是第3</li>
+            <li>我是第4</li>
+            <li>我是第5</li>
+            <li>我是第6</li>
+            <li>我是第7</li>
+        </ul>
+        <div id="nextPage" class="btn"></div>
+    </div>
+</body>
+</html>
