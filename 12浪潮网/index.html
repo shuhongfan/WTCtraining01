@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>浪潮</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+<!--    导入swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@6.2.0/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@6.2.0/swiper-bundle.min.js"></script>
+<!--    自己写的css-->
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+<!--导航栏-->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img alt="Brand" src="./img/logo.png">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse text-center" id="example-navbar-collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        菜单 <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#jmeter">jmeter</a></li>
+                        <li><a href="#EJB">EJB</a></li>
+                        <li><a href="#Jasper">Jasper Report</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">产品</a></li>
+                <li><a href="#">解决方案</a></li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">支持下载</a></li>
+                <li><a href="#">如何购买</a></li>
+                <li><a href="#">合作伙伴</a></li>
+                <li><a href="#">关于</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right hidden-xs hidden-md hidden-sm">
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                </form>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--轮播图-->
+<div class="swiperBox">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./img/swiper1.jpg" alt="">
+<!--                <div class="text">-->
+<!--                    <h2>浪潮云数智中国行</h2>-->
+<!--                    <h3>智驱新时代</h3>-->
+<!--                    <button type="button" class="btn btn-primary btn-lg text-btn">查看详情</button>-->
+<!--                </div>-->
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/swiper2.jpg" alt="">
+                <div class="text">
+                    <h2>计算之美,为世界计算出美好</h2>
+                    <h3>以计算之力,构建人象和谐,家园和谐,生他和谐之美</h3>
+                    <button type="button" class="btn btn-primary text-btn">查看详情 &raquo;</button>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/swiper3.jpg" alt="">
+                <div class="text">
+                    <h2>AI洞察智慧世界</h2>
+                    <h3>30分钟开启AI学习之旅</h3>
+                    <button type="button" class="btn btn-primary text-btn">查看详情 &raquo;</button>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/swiper4.jpg" alt="">
+                <div class="text">
+                    <h3>中国工业互联网大赛</h3>
+                    <h2>第二届中国工业互联网大赛</h2>
+                    <h3>西部(重庆)赛区</h3>
+                    <button type="button" class="btn btn-primary text-btn">查看详情 &raquo;</button>
+                </div>
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- 如果需要滚动条 -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+</div>
+
+<!--main重点产品！-->
+<div class="container main">
+    <h4>重点产品！</h4>
+    <p>以高性能、安全性，满足企业IT基础架构所需</p>
+    <div class="col-md-3 shadow">
+        <img src="./img/main1.jpg" alt="">
+        <h5><a href="">通用服务器</a></h5>
+        <p>持续创新，引领IT基础设施发展，专注于客户需 求，以匠人精神为客户提供专业、优化、高效的 产品体验。</p>
+        <p><a class="btn btn-default more" href="#" role="button">查看更多 &raquo;</a></p>
+    </div>
+    <div class="col-md-3 shadow">
+        <img src="./img/main2.jpg" alt="">
+        <h5><a href="">人工智能服务器</a></h5>
+        <p>产品线覆盖从单机4卡到64卡集群的不同人工智能计算平台，广泛应用于BAT，浪潮人工智能服务器市场份额超50%。 </p>
+        <p><a class="btn btn-default more" href="#" role="button">查看更多 &raquo;</a></p>
+    </div>
+    <div class="col-md-3 shadow">
+        <img src="./img/main3.png" alt="">
+        <h5><a href="">存储</a></h5>
+        <p>基于“云存智用 运筹新数据”的创新理念，以完善的存储产品线，为客户提供最适合业务发展的存储产品和解决方案。</p>
+        <p><a class="btn btn-default more" href="#" role="button">查看更多 &raquo;</a></p>
+    </div>
+    <div class="col-md-3 shadow">
+        <img src="./img/main4.png" alt="">
+        <h5><a href="">关键应用主机</a></h5>
+        <p>充分保障您的业务系统随需而动，弹性部署，提供高性能、高可用、高效率的IT资源。</p>
+        <p><a class="btn btn-default more" href="#" role="button">查看更多 &raquo;</a></p>
+    </div>
+</div>
+
+<!--content解决方案-->
+<div class="content">
+    <div class="container main">
+        <h4>解决方案</h4>
+        <p>基于云与大数据的解决方案帮助企业成功转型</p>
+        <div class="col-md-3 col-sm-6">
+            <img src="./img/content2.png" alt="">
+            <h5><a href="">云计算</a></h5>
+            <p>凭借浪潮高端服务器、海量存储、云操作系统、信息安全技术为客户打造领先的云基础架构。</p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <img src="./img/content3.png" alt="">
+            <h5><a href="">高性能</a></h5>
+            <p>浪潮高性能计算解决方案深入行业应用定制开发，使每套HPC系统与行业应用相得益彰，激发计算潜能。 </p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <img src="./img/content4.png" alt="">
+            <h5><a href="">安全</a></h5>
+            <p>聚焦云数据中心的主机安全，包括操作系统安全、应用安全和数据安全，提供集硬件、操作系统、安全软件“三位一体”的主机安全方案。</p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <img src="./img/content5.png" alt="">
+            <h5><a href="">大数据</a></h5>
+            <p>满足数据采集、存储、处理及应用开发大数据基础支撑平台，支撑海量数据规模。</p>
+        </div>
+    </div>
+</div>
+
+<!--news新闻与公告-->
+<div class="news">
+    <div class="container main">
+        <h4>新闻与公告</h4>
+        <div class="col-md-4">
+            <img src="./img/new1.jpg" alt="">
+            <h5 class="test1"><a href="">云洲启·生万象丨浪潮云洲工业互联网平台2.0重磅发布</a></h5>
+            <p class="text2">浪潮云洲工业互联网平台 2.0、云洲质量码平台以及云洲云ERP解决方案三箭齐发，全面开启工业互联网发展新机遇。</p>
+            <p><a class="btn btn-default more" href="#" role="button">查看详情 &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <img src="./img/new2.jpg" alt="">
+            <h5 class="test1"><a href="">“智算中心”是智慧时代的新基建</a></h5>
+            <p class="text2">4月9日，2020浪潮云数据中心合作伙伴大会（IPF2020）首次在线上举行，超过5000家分销商、ISV、SI等合作伙伴在线出席本次大会。...</p>
+            <p><a class="btn btn-default more" href="#" role="button">查看详情 &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <img src="./img/new3.png" alt="">
+            <h5 class="test1"><a href="">喜报！浪潮云连续6年蝉联中国政务云市场第一位</a></h5>
+            <p class="text2">浪潮云在政务云市场地位和发展能力方面取得双料第一，连续6年蝉联中国政务云市场第一位。</p>
+            <p><a class="btn btn-default more" href="#" role="button">查看详情 &raquo;</a></p>
+        </div>
+        <button type="button" class="btn btn-default btn-lg morenews">了解更多新闻</button>
+    </div>
+</div>
+
+<!--activities市场活动-->
+<div class="activities">
+    <div class="container main">
+        <h4>市场活动</h4>
+        <div class="col-md-4 col-sm-6">
+            <img src="./img/activities2.jpg" alt="">
+            <h5><a href="">2020浪潮云数智中国行-南京站</a></h5>
+            <p>2020.09.17 | 中国 南京</p>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <img src="./img/activities3.jpg" alt="">
+            <h5><a href="">2020浪潮云数智中国行-合肥站</a></h5>
+            <p>2020.09.16 | 中国 合肥</p>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <ul>
+                <li>
+                    <a href="">2020浪潮云数智中国行-西安站</a>
+                    <p>
+                        <span>2020.09.16 | 中国 西安</span>
+                        <span><a href="">详情 >></a></span>
+                    </p>
+                </li>
+                <li>
+                    <a href="">2020浪潮云数智中国行-重庆站</a>
+                    <p>
+                        <span>2020.09.15 | 中国 重庆</span>
+                        <span><a href="">详情 >></a></span>
+                    </p>
+                </li>
+                <li>
+                    <a href="">2020浪潮云数智中国行-武汉站</a>
+                    <p>
+                        <span>2020.09.15 | 中国 武汉</span>
+                        <span><a href="">详情 >></a></span>
+                    </p>
+                </li>
+                <li>
+                    <a href="">2020浪潮云数智中国行-郑州站</a>
+                    <p>
+                        <span>2020.09.11 | 中国 郑州</span>
+                        <span><a href="">详情 >></a></span>
+                    </p>
+                </li>
+                <li>
+                    <a href="">2020浪潮云数智中国行-南昌站</a>
+                    <p>
+                        <span>2020.09.11 | 中国 南昌</span>
+                        <span><a href="">详情 >></a></span>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <button type="button" class="btn btn-default btn-lg morenews">查看更多活动</button>
+</div>
+
+<!--help-->
+<div class="container main help">
+    <div class="col-md-3 col-sm-6">
+        <img src="./img/help1.png" alt="">
+        <h5><a href="">浪潮电子采购平台</a></h5>
+        <p>全方位的资讯服务+多效的采购交易平台+管家式服务</p>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <img src="./img/help2.png" alt="">
+        <h5><a href="">自助服务</a></h5>
+        <p>提供自助服务与人工服务的无缝整合，为客户提供个性化服务⋯ </p>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <img src="./img/help3.png" alt="">
+        <h5><a href="">如何购买</a></h5>
+        <p>官方商城  质量无忧</p>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <img src="./img/help4.png" alt="">
+        <h5><a href="">云服务专家</a></h5>
+        <p>为政府、企业、个人提供从咨询到运维的全生命周期服务，成就中国数字化转型新生代</p>
+    </div>
+</div>
+
+<!--about me关于我们-->
+<div class="aboutme">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-sm-4  col-xs-6">
+                <h3>关于浪潮</h3>
+                <ul>
+                    <li><a href="">集团简介</a></li>
+                    <li><a href="">企业文化</a></li>
+                    <li><a href="">董事长致辞</a></li>
+                    <li><a href="">加入我们</a></li>
+                    <li><a href="">联系我们</a></li>
+                    <li><a href="">关注我们</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4  col-xs-6">
+                <h3>新闻与活动</h3>
+                <ul>
+                    <li><a href="">新闻公告</a></li>
+                    <li><a href="">市场活动</a></li>
+                    <li><a href="">科技战“疫”</a></li>
+                    <li><a href="">如何购买</a></li>
+                    <li><a href="">需求工单</a></li>
+                    <li><a href="">售前咨询</a></li>
+                    <li><a href="">查找经销商</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4  col-xs-6">
+                <h3>探索浪潮</h3>
+                <ul>
+                    <li><a href="">通用服务器</a></li>
+                    <li><a href="">存储</a></li>
+                    <li><a href="">人工智能</a></li>
+                    <li><a href="">爱城市网</a></li>
+                    <li><a href="">浪潮云</a></li>
+                    <li><a href="">浪潮云ERP</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4  col-xs-6">
+                <h3>支持与服务</h3>
+                <ul>
+                    <li><a href="">支持下载</a></li>
+                    <li><a href="">视频中心</a></li>
+                    <li><a href="">服务进度查询</a></li>
+                    <li><a href="">安全通告</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4  col-xs-6">
+                <h3>快速链接</h3>
+                <ul>
+                    <li><a href="">合作伙伴生态</a></li>
+                    <li><a href="">电子采购平台</a></li>
+                    <li><a href="">投行项目</a></li>
+                    <li><a href="">投资者关系</a></li>
+                    <li><a href="">道德遵从</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4  col-xs-6">
+                <h3>在社交媒体上关注我们</h3>
+                <img src="./img/aboutme.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <div class="col-md-4">
+                <p><a href="">©1996 - 2020 INSPUR Co., Ltd. 鲁ICP备05019369号</a></p>
+            </div>
+            <div class="col-md-4">
+                <p><a href="">鲁公网安备 37010202001184号</a></p>
+            </div>
+            <div class="col-md-4">
+                <p><a href="">隐私政策</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+<!--自己写的js-->
+<script src="./js/index.js"></script>
+</body>
+</html>
