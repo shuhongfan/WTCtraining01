@@ -1,4 +1,5 @@
 $(function (){
+    // 轮播图
     var swiper = new Swiper('.swiper-container', {
         slidesPerView: 1,
         spaceBetween: 30,

@@ -3,6 +3,7 @@
     background-color: #125cb3;
     margin: 0;
     border: 0;
+    border-radius:0;
 }
 .navbar-brand img{
     height: 30px;
@@ -14,7 +15,7 @@
 .navbar-nav>li.active>a{
     background-color: #125cb3!important;
 }
-.navbar-nav>li.open>a,.navbar-nav>li:hover>a{
+.navbar-nav>li.active>a,.navbar-nav>li:hover>a{
     background-color: #0179b6!important;
 }
 .dropdown-menu li{
@@ -22,6 +23,24 @@
 }
 .dropdown-menu li a{
     color: #ccc!important;
+}
+.navbar .infoBox{
+    display: none;
+    position: absolute;
+    top: 50px;
+    background-color: #fff;
+    width: 100%;
+    z-index: 999;
+}
+.infoBox li{
+    list-style: none;
+}
+.infoBox h3{
+    font-size: 16px;
+}
+.infoBox .col-md-2{
+    padding: 20px;
+    text-align: center;
 }
 
 /*轮播图*/
@@ -53,7 +72,7 @@
     background-color: #2797fd  !important;
 }
 
-/*main*/
+/*main重点产品*/
 .main{
     padding: 20px 5px;
 }
@@ -85,7 +104,7 @@
     color: #fff;
 }
 
-/*content*/
+/*content解决方案*/
 .content{
     text-align: center;
     background: url('../img/content1.jpg');
@@ -100,7 +119,7 @@
     color: white!important;
 }
 
-/*news*/
+/*news新闻与公告*/
 .news .container .col-md-4{
     box-sizing: border-box;
     border: 5px solid #fff;
@@ -130,7 +149,7 @@
     color: #f33212!important;
 }
 
-/*activities*/
+/*activities市场活动*/
 .activities{
     color: white;
     background: url('../img/activities1.jpg');
@@ -179,7 +198,7 @@
     cursor: pointer;
 }
 
-/*aboutme*/
+/*about me关于我们*/
 .aboutme{
     color: #cccccc;
     background: url('../img/aboutme2.png');
