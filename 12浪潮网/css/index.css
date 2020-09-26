@@ -126,6 +126,7 @@
     padding: 20px;
     background-color: #f7f7f7;
 }
+/*文字1行显示*/
 .test1{
     font-size: 18px;
     display: inline-block;
@@ -134,6 +135,7 @@
     overflow: hidden;
     text-overflow:ellipsis;
 }
+/*文字2行显示*/
 .text2{
     word-break:break-all;
     display:-webkit-box;

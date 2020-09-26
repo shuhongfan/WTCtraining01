@@ -833,12 +833,14 @@
 <!--自己写的js-->
 <script src="./js/index.js"></script>
 <script>
+    // 导航栏点击
     $('#example-navbar-collapse ul li').click(function (){
         $(this).addClass('active').siblings().removeClass('active')
         var index=$(this).index()
         $('.infoBox').slideUp()
         $('.infoBox').eq(index).stop().slideToggle()
     })
+    // 导航栏hover
     $('#example-navbar-collapse ul li').hover(function (){
         $(this).addClass('active').siblings().removeClass('active')
         var index=$(this).index()
