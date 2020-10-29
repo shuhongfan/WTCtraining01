@@ -1,0 +1,27 @@
+/*css重置*/
+body,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 16px/1.5 "arial,helvetica,sans-serif";
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.mt20{
+    margin-top: 20px;
+}

@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fa3cb9f-e960-4356-8454-95a53a80d809" name="默认的" comment="2020.9.25 wordpress">
-      <change afterPath="$PROJECT_DIR$/12浪潮网/网4舒洪凡1801305764-大型动态商业网站开发与运营实训.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12浪潮网/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/12浪潮网/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12浪潮网/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/12浪潮网/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12浪潮网/网4舒洪凡1801305764-大型动态商业网站开发与运营实训.docx" beforeDir="false" afterPath="$PROJECT_DIR$/12浪潮网/网4舒洪凡1801305764-大型动态商业网站开发与运营实训.docx" afterDir="false" />
-    </list>
+    <list default="true" id="4fa3cb9f-e960-4356-8454-95a53a80d809" name="默认的" comment="2020.9.26 end" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +95,7 @@
       <workItem from="1600998077880" duration="7795000" />
       <workItem from="1601015501036" duration="11908000" />
       <workItem from="1601034102480" duration="16000" />
-      <workItem from="1601103678674" duration="2660000" />
+      <workItem from="1601103678674" duration="2802000" />
     </task>
     <task id="LOCAL-00001" summary="2020.9.7">
       <created>1599470070090</created>
@@ -159,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601033133225</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2020.9.26 end">
+      <created>1601108631632</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601108631632</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +187,8 @@
     <MESSAGE value="2020.9.14 jqmobile" />
     <MESSAGE value="2020.9.24 浪潮 end" />
     <MESSAGE value="2020.9.25 wordpress" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020.9.25 wordpress" />
+    <MESSAGE value="2020.9.26 end" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020.9.26 end" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="57" key="SettingsEditor" timestamp="1600936515645">
@@ -196,12 +198,12 @@
     <state x="270" y="56" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1599546165810" />
     <state x="0" y="57" key="SettingsEditor/0.0.1549.831/1920.0.1549.831@0.0.1549.831" timestamp="1600936515645" />
     <state x="0" y="102" key="SettingsEditor/0.0.864.1496/-1920.-124.1536.824@0.0.864.1496" timestamp="1600677128091" />
-    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1601033495137">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="364" y="146" key="Vcs.Push.Dialog.v2" timestamp="1601108633782">
+      <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="254" y="331" key="Vcs.Push.Dialog.v2/0.0.1080.1880/-1920.0.1920.1040@0.0.1080.1880" timestamp="1600082653859" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1599551915968" />
-    <state x="364" y="146" key="Vcs.Push.Dialog.v2/0.0.1549.831/1920.0.1549.831@0.0.1549.831" timestamp="1600966274900" />
+    <state x="364" y="146" key="Vcs.Push.Dialog.v2/0.0.1549.831/1920.0.1549.831@0.0.1549.831" timestamp="1601108633781" />
     <state x="-1559" y="145" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1599816452061" />
     <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601033495137" />
   </component>

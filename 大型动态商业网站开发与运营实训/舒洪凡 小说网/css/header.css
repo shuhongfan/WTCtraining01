@@ -1,0 +1,16 @@
+header{
+    height: 60px;
+    background-color: #fb6638;
+}
+.header-bar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    display: block;
+}
+nav a{
+    display: inline-block;
+    padding: 0 20px;
+}
